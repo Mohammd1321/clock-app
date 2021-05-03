@@ -17,6 +17,22 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   height: 100%;
   font-size: 5rem;
+}
+
+
+.party {
+  width: min(800px,100%);
+  margin: 0rem auto 1rem;
+  display: none;
+}
+
+#awesome {
+  display: block;
+}
+
+video {
+  width: 100%;
 }
