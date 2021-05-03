@@ -1,0 +1,69 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+html {
+  height: 100%;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: min(1400px, 100%);
+  margin: 5rem auto 0rem;
+  min-height: 400px;
+}
+
+.imgs {
+  flex-basis: 48%;
+}
+.imgs img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.phone-details {
+  flex-basis: 48%;
+}
+.phone-details h1 {
+  color: #7cddfd;
+}
+.phone-details > h2, .phone-details > p {
+  margin: 1.5rem 0rem;
+}
+.phone-details > p {
+  font-size: 1.3rem;
+  opacity: 0.8;
+}
+.phone-details .timer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  width: min(550px, 100%);
+}
+.phone-details .timer .time {
+  background-color: darkblue;
+  color: white;
+  font-size: 1.3rem;
+  padding: 1rem;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.phone-details .timer .time p {
+  margin-bottom: 0.3rem;
+}
+
+img {
+  width: 300px;
+}
+
+/*# sourceMappingURL=style.css.map */
