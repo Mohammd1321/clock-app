@@ -13,7 +13,7 @@ function showTime() {
   let seconds = new Date().getSeconds();
   let duration = 'am';
   let end = video.ended;
-  
+
   if(hours == 0) {
     hours = 12;
   }
@@ -32,7 +32,9 @@ function showTime() {
   if(end) {
     party.removeAttribute('id');
     display(false);
+    video.load();
   }
+
 
   hours = hours < 10 ? '0' + hours: hours;
   minutes = minutes < 10 ? '0' + minutes: minutes;
