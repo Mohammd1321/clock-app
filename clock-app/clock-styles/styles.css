@@ -1,0 +1,24 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+body {
+  background-color: black;
+  height: 100vh;
+}
+
+.middle {
+  color: #71dbff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 5rem;
+}
+
+/*# sourceMappingURL=styles.css.map */
